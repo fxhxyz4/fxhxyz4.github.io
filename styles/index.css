@@ -1,54 +1,54 @@
 @font-face {
-  font-family: "Roboto";
-  src: local("Roboto"), url(../fonts/Roboto-Bold.ttf) format("truetype");
+  font-family: 'Roboto';
+  src: local('Roboto'), url(../fonts/Roboto-Bold.ttf) format('truetype');
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
-  font-family: "Roboto";
-  src: local("Roboto"), url(../fonts/Roboto-BoldItalic.ttf) format("truetype");
+  font-family: 'Roboto';
+  src: local('Roboto'), url(../fonts/Roboto-BoldItalic.ttf) format('truetype');
   font-weight: 700;
   font-style: italic;
 }
 @font-face {
-  font-family: "Roboto";
-  src: local("Roboto"), url(../fonts/Roboto-Bold.otf) format("opentype");
+  font-family: 'Roboto';
+  src: local('Roboto'), url(../fonts/Roboto-Bold.otf) format('opentype');
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
-  font-family: "Roboto";
-  src: local("Roboto"), url(../fonts/Roboto-BoldItalic.otf) format("opentype");
+  font-family: 'Roboto';
+  src: local('Roboto'), url(../fonts/Roboto-BoldItalic.otf) format('opentype');
   font-weight: 700;
   font-style: italic;
 }
 @font-face {
-  font-family: "Roboto";
-  src: local("Roboto"), url(../fonts/Roboto-Bold.eot) format("embedded-opentype");
+  font-family: 'Roboto';
+  src: local('Roboto'), url(../fonts/Roboto-Bold.eot) format('embedded-opentype');
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
-  font-family: "Roboto";
-  src: local("Roboto"), url(../fonts/Roboto-BoldItalic.eot) format("embedded-opentype");
+  font-family: 'Roboto';
+  src: local('Roboto'), url(../fonts/Roboto-BoldItalic.eot) format('embedded-opentype');
   font-weight: 700;
   font-style: italic;
 }
 @font-face {
-  font-family: "Roboto";
-  src: local("Roboto"), url(../fonts/Roboto-Bold.woff) format("woff");
+  font-family: 'Roboto';
+  src: local('Roboto'), url(../fonts/Roboto-Bold.woff) format('woff');
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
-  font-family: "Roboto";
-  src: local("Roboto"), url(../fonts/Roboto-BoldItalic.woff) format("woff");
+  font-family: 'Roboto';
+  src: local('Roboto'), url(../fonts/Roboto-BoldItalic.woff) format('woff');
   font-weight: 700;
   font-style: italic;
 }
 @font-face {
-  font-family: "Roboto";
-  src: local("Roboto"), url(../fonts/Roboto-Bold.woff2) format("woff2");
+  font-family: 'Roboto';
+  src: local('Roboto'), url(../fonts/Roboto-Bold.woff2) format('woff2');
   font-weight: 700;
   font-style: normal;
 }

@@ -6,76 +6,81 @@
 @color: linear-gradient(to right, rgb(240, 43, 247), white, white, rgb(240, 43, 247));
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-html, body {
-    font-family: @font;
-    font-size: @font-size;
-    font-weight: @font-weight;
-    font-style: italic;
+html,
+body {
+	font-family: @font;
+	font-size: @font-size;
+	font-weight: @font-weight;
+	font-style: italic;
 }
 
 body {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    background-color: @background-color;
-    color: @def-color;
-    user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -webkit-user-select: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	background-color: @background-color;
+	color: @def-color;
+	user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-user-select: none;
 }
 
 ul {
-    list-style-type: none;
+	list-style-type: none;
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 /*-------------------------------------------*/
 
 .main__title {
-    font-size: 32px;
-    margin-bottom: 40px;
-    font-style: normal;
+	font-size: 32px;
+	margin-bottom: 40px;
+	font-style: normal;
 }
 
 .main__item {
-    margin-bottom: 35px;
+	margin-bottom: 35px;
 
-    &:last-child {
-        margin-bottom: 0;
-    }
+	&:last-child {
+		margin-bottom: 0;
+	}
 }
 
 .main__link {
-    padding: 9px 24px;
-    background: @color;
-    background-clip: text;
-    -webkit-background-clip: text;
-    background-size: 150% 150%;
-    animation: fxh 2s linear infinite;
-    -webkit-animation: fxh 2s linear infinite;
-    -webkit-text-fill-color: transparent;
-    text-fill-color: transparent;
-    &:focus,
-    &:hover {
-        animation: fxh 888ms linear infinite;
-        -webkit-animation: fxh 888ms linear infinite;
-    }
+	padding: 9px 24px;
+	background: @color;
+	background-clip: text;
+	-webkit-background-clip: text;
+	background-size: 150% 150%;
+	animation: fxh 2s linear infinite;
+	-webkit-animation: fxh 2s linear infinite;
+	-webkit-text-fill-color: transparent;
+	text-fill-color: transparent;
+	&:focus,
+	&:hover {
+		animation: fxh 888ms linear infinite;
+		-webkit-animation: fxh 888ms linear infinite;
+	}
 }
 
 /*-------------------------------------------*/
 
 @keyframes fxh {
-    0% {background-position: 0%;}
-    100% {background-position: 300%;}
+	0% {
+		background-position: 0%;
+	}
+	100% {
+		background-position: 300%;
+	}
 }

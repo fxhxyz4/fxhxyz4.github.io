@@ -1,24 +1,24 @@
 {
-  "name": "gradientpage",
-  "version": "1.0.0",
-  "author": "fxhxyz <fxhxyz@proton.me> (https://fxhxyz4.github.io)",
-  "description": "gradient page",
-  "keywords": [
-    "html",
-    "css",
-    "less",
-    "javascript"
-  ],
-  "homepage": "https://fxhxyz4.github.io",
-  "main": "index.js",
-  "license": "MIT",
-  "scripts": {
-    "dev": "lessc ./less/index.less ./styles/index.css && css-minify -f ./styles/index.css -o ./styles/",
-    "css": "css-minify -f ./styles/index.css -o ./styles/",
-    "less": "lessc ./less/index.less ./styles/index.css"
-  },
-  "devDependencies": {
-    "css-minify": "^2.0.0",
-    "less": "^4.1.3"
-  }
+	"name": "gradientpage",
+	"version": "1.0.0",
+	"author": "fxhxyz <fxhxyz@proton.me> (https://fxhxyz4.github.io)",
+	"description": "gradient page",
+	"keywords": [
+		"html",
+		"css",
+		"less",
+		"javascript"
+	],
+	"homepage": "https://fxhxyz4.github.io",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"dev": "yarn less && yarn css",
+		"css": "css-minify -f ./styles/index.css -o ./styles/",
+		"less": "lessc ./less/index.less ./styles/index.css"
+	},
+	"devDependencies": {
+		"css-minify": "^2.0.0",
+		"less": "^4.1.3"
+	}
 }
