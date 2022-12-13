@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), url(../fonts/Roboto-Bold.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), url(../fonts/Roboto-BoldItalic.ttf) format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), url(../fonts/Roboto-Bold.otf) format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), url(../fonts/Roboto-BoldItalic.otf) format("opentype");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), url(../fonts/Roboto-Bold.eot) format("embedded-opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), url(../fonts/Roboto-BoldItalic.eot) format("embedded-opentype");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), url(../fonts/Roboto-Bold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), url(../fonts/Roboto-BoldItalic.woff) format("woff");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), url(../fonts/Roboto-Bold.woff2) format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: italic;
+}
+body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+/*-------------------------------------------*/
+.main__title {
+  font-size: 32px;
+  margin-bottom: 40px;
+  font-style: normal;
+}
+.main__item {
+  margin-bottom: 35px;
+}
+.main__item:last-child {
+  margin-bottom: 0;
+}
+.main__link {
+  padding: 9px 24px;
+  background: linear-gradient(to right, #f02bf7, white, white, #f02bf7);
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: 150% 150%;
+  animation: fxh 2s linear infinite;
+  -webkit-animation: fxh 2s linear infinite;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+}
+.main__link:focus,
+.main__link:hover {
+  animation: fxh 888ms linear infinite;
+  -webkit-animation: fxh 888ms linear infinite;
+}
+/*-------------------------------------------*/
+@keyframes fxh {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 300%;
+  }
+}
